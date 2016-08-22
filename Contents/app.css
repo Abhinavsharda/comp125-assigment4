@@ -1,0 +1,99 @@
+.maincontent{
+  width: 1080px;
+  margin: auto
+}
+.nav ul {
+  list-style: none;
+  background-color: #000;
+  text-align: left;
+  padding-left: 5px;
+  margin: 3mm;
+}
+.nav li {
+  font-family: 'century';
+  font-size: 0rem;
+  line-height: 10px;
+  height: 60px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: royalblue;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: whitesmoke;
+  height: 60px;
+  border-bottom-right-radius: 20px;
+}
+ 
+.nav a.active {
+  background-color: royalblue;
+  color: #000;
+  cursor: default;
+  border-top-left-radius: 20px;
+  }
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-table;
+    margin-right: 12px;
+  }
+}
+#canvas{
+  float:left; 
+}
+#profile{
+  width: 30%;
+  float: right;
+}
+#Name{
+  
+  font-size: 40px;
+}
+#Portfolio{
+  font-size: 30px;
+  width: 1%;
+}
+#C1{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+#C2{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+#C3{
+    width: 80%;
+    height: auto;
+    margin: auto
+}
+
+#about1{
+    font-size: 20px;
+}
+
+#about2{
+    font-size: 20px;
+}
+
+#about3{
+    font-size: 20px;
+}
+
