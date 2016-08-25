@@ -20,13 +20,13 @@ text.y = 175;
 text.regX=250*0.5;
 text.regY=250*0.5;
 stage.addChild(text);
-createjs.Ticker.framerate = 35;
+createjs.Ticker.framerate = 25;
 createjs.Ticker.addEventListener("tick", loop);
 text.addEventListener("click", function(){
-window.open("dbz/Assigment3.html");
+window.open("./dbz/Assigment3.html");
 }, true);
 pic = new createjs.Bitmap("./Assets/faltu.png");
-pic.x = 125;
+pic.x = 200;
 stage.addChild(pic);
 }
 /**
@@ -42,7 +42,7 @@ function loop(){
     else{
         text.x += 0.4;
         pic.x -= 4.5;
-        if(text.x <= 0 && pic.x >= 275){direction = true}
+        if(text.x <= 0 && pic.x >= 225){direction = true}
     }
     stage.update();
 }
